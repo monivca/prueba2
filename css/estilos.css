@@ -1,0 +1,108 @@
+.imglogo{
+    width: 100px;
+    border-radius: 8px;
+}
+.caja{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.titulos{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.cajatexto{
+    margin: 10px;
+    padding: 8px;
+
+}
+
+.banner1{
+    margin: 0px;
+    padding: 30px;
+    height: 300px;
+    background-color: rgba(255, 24, 147, 0.856);
+    background:linear-gradient(rgba(248, 248, 248, 0.637), rgba(248, 204, 231, 0.589)), url(/images/floristoaxaca2.jpg);
+    background-size: cover;
+}
+
+.iconosR a span{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 2px;
+}
+.iconosR a span:hover{
+    color: deeppink;
+    text-decoration: none;
+}
+
+.iconosR a:hover{
+    text-decoration: none;
+}
+
+#socialM{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titu2{
+    margin: 30px;
+}
+.testimonios{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 12px;
+    margin: 20px;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 60, 138);
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+.conteneIco{
+    margin: 30px;
+}
+
+.iconoFav{
+    font-size: 35px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    color: deeppink;
+} 
+
+.favs{
+    font-size: 15px;
+    text-align: center;
+}
+
+.iconoFav:hover{
+    font-size: 36px;
+}
+
+.piepag{
+    color: blanchedalmond;
+    background-color: black;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+  }
+
+.piepag li{
+    text-decoration: none;
+}
